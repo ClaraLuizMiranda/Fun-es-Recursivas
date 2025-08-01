@@ -8,3 +8,7 @@ def funcao(num):
         return 1
     else:
         return num*math.factorial(num-1)
+
+x = int(input(""))
+y = funcao(x)
+print(f"{y}")
