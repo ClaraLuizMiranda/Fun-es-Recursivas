@@ -6,3 +6,7 @@ def funcao(num,exp):
     else:
         return num* funcao(num, exp - 1)
             
+x1 = int(input(""))
+x2 = int(input(""))
+y = funcao(x1, x2)
+print(f"{y}")
